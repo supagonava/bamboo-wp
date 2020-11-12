@@ -1,0 +1,29 @@
+#pvc_dashboard_container {
+    color: #aaa;
+    min-height: 240px;
+    margin: 0 -4px;
+    text-align: center;
+    position: relative;
+}
+#pvc_dashboard_container .spinner {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -10px;
+}
+#pvc_dashboard p.sub {
+    color: #8f8f8f;
+    font-size: 14px;
+	text-align: left;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ececec;
+}
+#pvc_dashboard_container .pvc_months {
+	margin: 6px 10px 0 10px;
+}
+#pvc_dashboard_container .pvc_months a.prev {
+	float: left;
+}
+#pvc_dashboard_container .pvc_months a.next, #pvc_dashboard_container .pvc_months span.next {
+	float: right;
+}
